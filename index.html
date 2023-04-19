@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador y desencriptador de textos</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+</head>
+<body>
+    <main>
+        <h1 class="text-center">Encriptar y desencriptar textos</h1>
+        <section class="row">
+            <div class="col">
+                <textarea name="text-content" id="text"  placeholder="Ingrese su texto aqui" rows="20"></textarea>
+                <div class="row">
+                    <button class="btn1" onclick="encriptar()" >Encriptar</button>
+                    <button class="btn2" onclick="desencriptar()" >Desencriptar</button>
+                </div>
+            </div>
+            <div class="col">
+                <div id="result">
+                    <img src="assets/img/persona.png" alt="" width="250">
+                    <p>No se ha encontrado nada para encriptar</p>
+                </div>
+               <!--  <div class="row">
+                    <button onclick="copiar()">Copiar</button>
+                </div> -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <script src="assets/js/script.js"></script>
+    </footer>
+</body>
+</html>
